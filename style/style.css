@@ -59,3 +59,27 @@ transform: translate(100px, 100px);
     opacity: .6;
     font-weight: bold;
 } 
+
+.card-container .container-lower p{
+    font-size: 16px;
+    color: gray;
+    margin-bottom: 30px;
+}
+
+
+.card-container .container-lower .btn{
+    padding: 12px 20px;
+    background: #7F00FF;
+    border: none;
+    color: white;
+    border-radius: 30px;
+    font-size: 12px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.card-container .container-lower .btn:hover{
+    background: transparent;
+    color: #7F00FF;
+    border: 2px solid #7F00FF;
+}
