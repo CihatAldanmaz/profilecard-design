@@ -15,3 +15,28 @@ background: #f1f1f1;
     transform: translate(-50%, -50%);
     box-shadow: 0px 1px 10px 1px #000;
 }
+
+.card-container .container-top {
+    height: 150px;
+    background: #7F00FF;
+}
+
+.card-container .container-top .image-container{
+background: white;
+width: 80px;
+height: 80px;
+border-radius: 50%;
+padding: 5px;
+transform: translate(100px, 100px);
+}
+
+.card-container .container-top .image-container img{
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+}
+
+.card-container .container-lower {
+    height: 280px;
+    background: coral;
+}
